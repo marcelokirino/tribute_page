@@ -218,7 +218,7 @@ td, th{
     color: #7a7c7e;
 }
 
-.menuMobile {
+.menuMobile, .material-symbols-outlined {
     display: none;
 }
 
