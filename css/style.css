@@ -217,3 +217,78 @@ td, th{
 #paul_website a:hover , #notes a:hover{
     color: #7a7c7e;
 }
+
+.menuMobile {
+    display: none;
+}
+
+@media (min-width:390px) and (max-width:450px) {
+    header {
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        left:0;
+        position:absolute;
+        background-color: #282828;
+        width:445px;
+        margin-top:20px;
+
+    }
+    .menuMobile {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+    }
+
+    .container {
+        max-width: 360px;
+        padding:8px;
+    }
+
+    .content { 
+        flex-direction: column;
+    }
+    .picture img {
+        max-width:350px;
+    }
+
+    .text, .closing{
+        font-size: 15px;
+        padding:8px;
+        line-height: 20px;
+    }
+
+   
+
+    .personal_images_container {
+        flex-direction: column;
+    }
+
+    .personal_img img {
+        max-width: 340px;
+    }
+    
+    .list {
+        font-size: 15px;
+    }
+    #deathpic_text {
+        flex-direction: column;
+    }
+
+    #deathpic img {
+        max-width: 340px;
+    }
+
+
+
+
+}
